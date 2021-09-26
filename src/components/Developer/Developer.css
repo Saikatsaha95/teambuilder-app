@@ -1,7 +1,50 @@
+body {
+  background-color: rgba(4, 10, 26, 0.849);
+}
+
 .set-width {
   max-width: 540px;
 }
 
+.card-design {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  /* box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px; */
+  border: 2px rgba(255, 255, 255, 0.4) solid;
+  border-bottom: 2px solid rgba(40, 40, 40, 0.35);
+  border-right: 2px solid rgba(40, 40, 40, 0.35);
+}
+
 li {
   list-style: none;
+}
+
+img {
+  object-fit: cover;
+}
+
+td {
+  font-weight: 500;
+}
+
+.btn-area {
+  background-color: rgba(226, 226, 226, 0.794);
+  text-align: center;
+  padding: 4px;
+}
+.btn-area button {
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.267);
+}
+
+.btn-addtoteam {
+  background-color: rgba(231, 85, 85, 0.911);
+  color: white;
+  /* font-weight: bold; */
+}
+
+.btn-portfolio {
+  /* background-color: rgb(190, 190, 49); */
+  background-color: rgba(43, 182, 43, 0.835);
+  color: white;
+  /* font-weight: bold; */
 }
