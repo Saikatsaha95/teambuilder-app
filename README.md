@@ -1,6 +1,6 @@
 # TeamBuilder
 
-This project was bootstrapped with [TeamBuilder Website](https://nervous-visvesvaraya-3e5fb5.netlify.app/).
+Website link: [TeamBuilder Website](https://nervous-visvesvaraya-3e5fb5.netlify.app/).
 
 ## Functionalitis of this website
 
