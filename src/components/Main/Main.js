@@ -34,8 +34,8 @@ const Main = () => {
       <div className="mt-5 ms-5 ">
         <div className="row">
           <div className="col-md-9">
-            <div className="card-container border-end">
-              <div className="row g-3 me-3">
+            <div className="card-container  border-end">
+              <div className="row g-3 me-2">
                 {developers.map((developer) => (
                   <Developer
                     key={developer.id}
@@ -48,10 +48,10 @@ const Main = () => {
           </div>
           <div className="col-md-3">
             <h3 className="text-white text-center">Your Team members</h3>
-            <div className="mt-3">
-              <ul>
+            <div className="mt-3 ">
+              <ul className="mx-auto">
                 {addDevelopers.map((developer) => (
-                  <li className="card select-developer-style">
+                  <li className="card select-developer-style mx-auto">
                     <SelectedMembers
                       key={developer.id}
                       developer={developer}
