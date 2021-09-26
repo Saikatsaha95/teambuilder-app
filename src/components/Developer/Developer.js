@@ -26,6 +26,7 @@ const Developer = (props) => {
               alt="..."
             />
           </div>
+          {/* Displaying the each developer data */}
           <div className="col-md-8 card-body">
             <table>
               <tbody>

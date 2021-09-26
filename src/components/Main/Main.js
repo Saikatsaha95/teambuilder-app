@@ -6,6 +6,8 @@ import "./Main.css";
 const Main = () => {
   const [developers, setDevelopers] = useState([]);
   const [addDevelopers, setAddDevelopers] = useState([]);
+
+  //fetching data from JSON
   useEffect(() => {
     fetch("./developers.JSON")
       .then((res) => res.json())
@@ -17,6 +19,7 @@ const Main = () => {
     setAddDevelopers(addNewDeveloper);
   };
 
+  //calculating the cost
   const costReducer = (preCost, currCost) => preCost + currCost.salary;
 
   const totalCost = addDevelopers.reduce(costReducer, 0);
@@ -30,11 +33,12 @@ const Main = () => {
         </h4>
         <h4 className="bg-total-cost">Total Cost: ${totalCost}</h4>
       </div>
-
+      {/* creating the layout */}
       <div className="mt-5 ms-5 ">
         <div className="row">
           <div className="col-md-9">
             <div className="card-container  border-end">
+              {/* Creating the cards */}
               <div className="row g-3 me-2">
                 {developers.map((developer) => (
                   <Developer
@@ -48,6 +52,7 @@ const Main = () => {
           </div>
           <div className="col-md-3">
             <h3 className="text-white text-center">Your Team members</h3>
+            {/* Adding the selected members */}
             <div className="mt-3 ">
               <ul className="mx-auto">
                 {addDevelopers.map((developer) => (

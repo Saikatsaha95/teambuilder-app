@@ -5,6 +5,7 @@ import "./SelectedMembers.css";
 const SelectedMembers = (props) => {
   const { name, image, twitter } = props.developer;
   return (
+    // Selected members displaying template
     <div className="row">
       <div className="col-md-12">
         <div className="d-flex align-items-center">
@@ -15,7 +16,7 @@ const SelectedMembers = (props) => {
             <h6>Name: {name}</h6>
             <a href={twitter}>
               <button className="btn btn-info text-white">
-                <i class="fab fa-twitter me-2"></i>
+                <i className="fab fa-twitter me-2"></i>
                 Contact Me
               </button>
             </a>
