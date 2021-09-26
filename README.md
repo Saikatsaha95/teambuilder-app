@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# TeamBuilder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [TeamBuilder Website](https://nervous-visvesvaraya-3e5fb5.netlify.app/).
+
+## Functionalitis of this website
+
+- Find the best developers around the world.
+- Add them to your team.
+- Real time update of their total salary.
 
 ## Available Scripts
 
