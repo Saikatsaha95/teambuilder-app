@@ -23,7 +23,7 @@ const Main = () => {
   return (
     <div>
       <h2 className="text-center text-white">Build Your Web Team</h2>
-      <h4 className="text-center text-white">Budget: 1 million (yearly)</h4>
+      <h4 className="text-center text-white">Budget: $1 million (yearly)</h4>
       <div className="d-flex justify-content-center mt-4">
         <h4 className="me-5 bg-total-member">
           Total Members: {addDevelopers.length}

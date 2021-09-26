@@ -4,8 +4,17 @@ import { faLink, faUser } from "@fortawesome/free-solid-svg-icons";
 import "./Developer.css";
 
 const Developer = (props) => {
-  const { name, age, designation, image, gender, salary, twitter, website } =
-    props.developer;
+  const {
+    name,
+    age,
+    designation,
+    image,
+    gender,
+    salary,
+    twitter,
+    website,
+    experience,
+  } = props.developer;
   return (
     <div className="col-4 ">
       <div className="card mb-3 set-width card-design">
@@ -35,6 +44,10 @@ const Developer = (props) => {
                 <tr>
                   <th className="card-title">Designation: </th>
                   <td>{designation}</td>
+                </tr>
+                <tr>
+                  <th className="card-title">Experience: </th>
+                  <td>{experience}</td>
                 </tr>
                 <tr>
                   <th className="card-title">Salary: </th>

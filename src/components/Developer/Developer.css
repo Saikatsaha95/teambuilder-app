@@ -4,7 +4,7 @@
 
 .card-design {
   border-radius: 10px;
-  height: 227px;
+  height: 245px;
 
   background-color: rgba(255, 255, 255, 1);
   /* box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px; */
@@ -19,7 +19,7 @@
 }
 
 .developer-img {
-  height: 222px;
+  height: 240px;
   width: 100%;
 }
 
