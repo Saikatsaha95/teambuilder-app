@@ -15,7 +15,6 @@ const SelectedMembers = (props) => {
             <h6>Name: {name}</h6>
             <a href={twitter}>
               <button className="btn btn-info text-white">
-                {" "}
                 <i class="fab fa-twitter me-2"></i>
                 Contact Me
               </button>
