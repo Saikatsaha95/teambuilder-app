@@ -13,7 +13,7 @@ const Developer = (props) => {
           <div className="col-md-4">
             <img
               src={image}
-              className="img-fluid rounded-start h-100"
+              className="img-fluid rounded-start  developer-img"
               alt="..."
             />
           </div>

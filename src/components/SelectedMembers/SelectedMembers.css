@@ -1,0 +1,5 @@
+.selected-img {
+  object-fit: cover;
+  height: 98.6px;
+  width: 100px;
+}

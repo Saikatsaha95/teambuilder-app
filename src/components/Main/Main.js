@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Developer from "../Developer/Developer";
+import SelectedMembers from "../SelectedMembers/SelectedMembers";
 import "./Main.css";
 
 const Main = () => {
@@ -21,7 +22,7 @@ const Main = () => {
   const totalCost = addDevelopers.reduce(costReducer, 0);
   return (
     <div>
-      <h2 className="text-center text-white">Build Your Desire Team</h2>
+      <h2 className="text-center text-white">Build Your Web Team</h2>
       <h4 className="text-center text-white">Budget: 1 million (yearly)</h4>
       <div className="d-flex justify-content-center mt-4">
         <h4 className="me-5 bg-total-member">
@@ -46,7 +47,16 @@ const Main = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <h2>I am small</h2>
+            <h3 className="text-white text-center">Your Team members</h3>
+            <div className="mt-3">
+              <ul>
+                {addDevelopers.map((developer) => (
+                  <li className="card select-developer-style">
+                    <SelectedMembers developer={developer}></SelectedMembers>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </div>

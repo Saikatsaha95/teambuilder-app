@@ -11,17 +11,18 @@
     "twitter": "https://twitter.com/SaraSoueidan?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
     "website": "https://www.sarasoueidan.com/"
   },
+
   {
-    "id": "54646516",
-    "name": "Abby Covert",
-    "designation": "Information architect",
-    "salary": 120000,
-    "age": 31,
-    "experience": "13 years",
-    "gender": "Female",
-    "image": "https://cdn.mos.cms.futurecdn.net/d56Tacirhb3wYTSB3DNhbg-970-80.jpg.webp",
-    "twitter": "https://twitter.com/Abby_the_IA",
-    "website": "https://abbycovert.com/"
+    "id": "49385267",
+    "name": "Andy Clarke",
+    "designation": "Web Designer",
+    "salary": 127000,
+    "age": 38,
+    "experience": "18 years",
+    "gender": "Male",
+    "image": "https://cloud.24ways.org/authors/andyclarke280.jpg",
+    "twitter": "https://twitter.com/Malarkey",
+    "website": "https://stuffandnonsense.co.uk/bio"
   },
   {
     "id": "65468545",
@@ -31,21 +32,21 @@
     "age": 33,
     "experience": "11 years",
     "gender": "Male",
-    "image": "https://cdn.mos.cms.futurecdn.net/44ce85ff03b17dac90320c6359c5bcb9-970-80.jpg.webp",
+    "image": "https://aneventapart.com/uploads/headshots/_350x425_fit_center-center_80_none/ethan-2017-cropped.jpg",
     "twitter": "https://twitter.com/beep",
     "website": "https://ethanmarcotte.com/"
   },
   {
-    "id": "35465438",
-    "name": "Chris Coyier",
-    "designation": "CSS and HTML expert",
-    "salary": 140000,
-    "age": 35,
-    "experience": "17 years",
+    "id": "46546849",
+    "name": "Jon Hicks",
+    "designation": "Graphics Artist",
+    "salary": 133000,
+    "age": 42,
+    "experience": "23 years",
     "gender": "Male",
-    "image": "https://cdn.mos.cms.futurecdn.net/fe2bb57a7c4c454e85519c7b29f341d4-970-80.jpg.webp",
-    "twitter": "https://twitter.com/chriscoyier",
-    "website": "https://chriscoyier.net/"
+    "image": "https://woocommerce.com/wp-content/uploads/2010/07/jon_hicks1.jpg",
+    "twitter": "https://twitter.com/Hicksdesign",
+    "website": "https://hicks.design/"
   },
   {
     "id": "48536519",
@@ -55,7 +56,7 @@
     "age": 32,
     "experience": "15 years",
     "gender": "Female",
-    "image": "https://cdn.mos.cms.futurecdn.net/835132c4d347a217f71e15e130e32ae2-970-80.jpg.webp",
+    "image": "https://uxilive.co.il/video/wp-content/uploads/2019/07/karen-mcgrane.jpg",
     "twitter": "https://twitter.com/karenmcgrane",
     "website": "http://karenmcgrane.com/"
   },
@@ -67,8 +68,7 @@
     "age": 38,
     "experience": "19 years",
     "gender": "Male",
-    "image": "https://cdn.mos.cms.futurecdn.net/10caba590b518de64b8c15d8e8e3fbd9-970-80.jpg.webp",
-    "twitter": "https://twitter.com/simplebits",
+    "image": "https://i1.wp.com/shoptalkshow.com/wp-content/uploads/2012/07/025-DanCederholm.jpg?fit=250%2C250&ssl=1",
     "website": "https://simplebits.com/"
   },
   {
@@ -98,7 +98,7 @@
   {
     "id": "29834716",
     "name": "Jeffrey Zeldman",
-    "designation": "Frontend developer",
+    "designation": "Frontend Developer",
     "salary": 155000,
     "age": 43,
     "experience": "25 years",
@@ -110,7 +110,7 @@
   {
     "id": "16832749",
     "name": "Rachel Andrew",
-    "designation": "Web developer",
+    "designation": "Web Developer",
     "salary": 140000,
     "age": 39,
     "experience": "20 years",
@@ -122,7 +122,7 @@
   {
     "id": "36741592",
     "name": "Simon Collison",
-    "designation": "Web designer",
+    "designation": "Web Designer",
     "salary": 110000,
     "age": 31,
     "experience": "16 years",
@@ -134,7 +134,7 @@
   {
     "id": "86247539",
     "name": "Veerle Pieters",
-    "designation": "Graphic designer",
+    "designation": "Graphic Designer",
     "salary": 95000,
     "age": 29,
     "experience": "10 years",
@@ -146,7 +146,7 @@
   {
     "id": "76183952",
     "name": "Cameron Moll",
-    "designation": "Web developer",
+    "designation": "Web Developer",
     "salary": 133000,
     "age": 36,
     "experience": "21 years",
@@ -154,5 +154,64 @@
     "image": "https://cdn.mos.cms.futurecdn.net/2fc68e7465f09d267b556898807ea759-970-80.jpg.webp",
     "twitter": "https://twitter.com/cameronmoll",
     "website": "http://cameronmoll.com/"
+  },
+  {
+    "id": "54646516",
+    "name": "Abby Covert",
+    "designation": "Information architect",
+    "salary": 120000,
+    "age": 31,
+    "experience": "13 years",
+    "gender": "Female",
+    "image": "https://assets-global.website-files.com/5fa08668c839845b6631ec34/5fa08668c8398483aa31eda0_Covert.jpg",
+    "website": "https://abbycovert.com/"
+  },
+  {
+    "id": "35465438",
+    "name": "Chris Coyier",
+    "designation": "CSS and HTML Expert",
+    "salary": 140000,
+    "age": 35,
+    "experience": "17 years",
+    "gender": "Male",
+    "image": "https://dotall.com/images/uploads/_400x400_crop_center-center_none/Chris-Coyier.jpg",
+    "twitter": "https://twitter.com/chriscoyier",
+    "website": "https://chriscoyier.net/"
+  },
+  {
+    "id": "29374168",
+    "name": "Matt Doyle",
+    "designation": "Web Developer",
+    "salary": 145000,
+    "age": 39,
+    "experience": "25 years",
+    "gender": "Male",
+    "image": "https://www.elated.com/wp-content/uploads/2019/10/Matt-headshot.jpg",
+    "twitter": "https://twitter.com/ElatedDotCom",
+    "website": "https://www.elated.com/"
+  },
+  {
+    "id": "59378619",
+    "name": "Francis Cubi",
+    "designation": "Wordpress Developer",
+    "salary": 75000,
+    "age": 27,
+    "experience": "4 years",
+    "gender": "Male",
+    "image": "https://webcentric.co.ke/wp-content/uploads/2021/08/FrancisCubi.jpg",
+    "twitter": "https://twitter.com/WebCentricKenya",
+    "website": "https://webcentric.co.ke/"
+  },
+  {
+    "id": "81693762",
+    "name": "Suprabha",
+    "designation": "Frontend Engineer",
+    "salary": 83000,
+    "age": 26,
+    "experience": "5 years",
+    "gender": "Female",
+    "image": "https://pbs.twimg.com/profile_images/1393266646970605568/MNrxqmm9.jpg",
+    "twitter": "https://twitter.com/suprabhasupi",
+    "website": "https://suprabha.me/"
   }
 ]
