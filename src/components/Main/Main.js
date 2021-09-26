@@ -52,7 +52,10 @@ const Main = () => {
               <ul>
                 {addDevelopers.map((developer) => (
                   <li className="card select-developer-style">
-                    <SelectedMembers developer={developer}></SelectedMembers>
+                    <SelectedMembers
+                      key={developer.id}
+                      developer={developer}
+                    ></SelectedMembers>
                   </li>
                 ))}
               </ul>
